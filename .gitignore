@@ -1,0 +1,7 @@
+logs/
+crash-reports/
+libraries/
+backups/
+*.log
+*.log.gz
+run.sh.save

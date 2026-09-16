@@ -1,0 +1,4 @@
+# Allow Offline Players (LAN) configuration
+# requireMojangAuthentication: true keeps online-mode enabled.
+# false disables Mojang authentication for LAN/private sessions only.
+requireMojangAuthentication=false

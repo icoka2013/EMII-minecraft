@@ -1,0 +1,16 @@
+
+[forceload]
+	#How aggressively OpacFixes enforces OPAC forceloads.
+	#  "vanilla"            - only call setChunkForced (lightest)
+	#  "ticket_and_vanilla" - OPAC tickets + setChunkForced (recommended)
+	#  "aggressive"         - ticket + vanilla + tick watchdog + mixin ticket protection
+	forceloadMode = "ticket_and_vanilla"
+	#Ticks between watchdog checks (only used in aggressive mode). 200 = every 10 seconds.
+	#Range: 20 ~ 6000
+	watchdogInterval = 200
+
+[commands]
+	#Permission level required for /openpac-wipe and /openpac-find (2 = op).
+	#Range: 0 ~ 4
+	permissionLevel = 2
+
